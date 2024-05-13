@@ -1,0 +1,56 @@
+.Signin_main_top_email_box input {
+  width: 27rem;
+  height: 3.5rem;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  outline: 1px solid #27ac1f;
+}
+.Signin_main_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black;   */
+  width: fit-content;
+  padding: 20px;
+}
+.Signin_main_top_email_box button {
+  padding: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #27ac1f;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.Signin_main_top_email_box button:hover {
+  background-color: #067100;
+}
+.Signin_main_top_email_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Signin_main_top_email_box img {
+  width: 320px;
+  height: 36px;
+}
+.Signin_main_top_email_box_top_switch {
+  color: #4285f4;
+}
+.signing_page_div_p {
+  position: absolute;
+  bottom: 0;
+}
+.Signin_main_top_email_box_top {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+::placeholder {
+  font-size: 1.3em; /* Adjust the value as needed */
+}

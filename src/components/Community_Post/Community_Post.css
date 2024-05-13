@@ -1,0 +1,48 @@
+.Community_Post {
+  display: flex;
+  flex-direction: column;
+  max-width: 85%;
+  /* align-items: center;
+  justify-content: center; */
+  margin-top: 1.8rem;
+}
+span {
+  font-size: large;
+}
+.Community_Post_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.304);
+  padding-bottom: 0.4 rem;
+}
+.Community_Post_header_left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Community_Post_header_left p {
+  margin-top: 0px;
+}
+.Community_Post_content {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.Community_Post_carousel {
+  width: auto;
+  height: auto;
+}
+.Community_Post_likes_button_img {
+  width: 30px;
+  height: 30px;
+}
+.Community_Post_likes_button button {
+  border: none;
+  outline: none;
+}
+.Community_Post_likes_button {
+  padding: 5px;
+}

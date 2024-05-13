@@ -1,0 +1,62 @@
+.navbarTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vh;
+}
+.navdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0px 0px 4px 1px #0000003a;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 5px;
+  height: 100%;
+}
+.navLogo {
+  width: 150px;
+  height: 60px;
+  margin-left: 20px;
+}
+.navSearch {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 35px;
+  border: 2px solid #27ac1f;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navSearch input {
+  width: 300px;
+  height: 10px;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+.navRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-right: 30px;
+}
+.nav_rightProfile {
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+}
+.nav_searchimg {
+  height: 30px;
+  width: 30px;
+}
+.nav_rightmenu {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}

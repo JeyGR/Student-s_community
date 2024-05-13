@@ -1,0 +1,35 @@
+.Select_community_div_right {
+  height: 100vh;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+
+  background-color: white;
+  width: 80%;
+  position: absolute;
+  right: 0;
+}
+.Select_community_div {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #27ac1f;
+}
+.Select_community_div_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Select_community_div_img {
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+}
+.Select_community_div_img_img {
+  width: 550px;
+  height: 800px;
+}
+.Select_community_div_p {
+  position: absolute;
+  bottom: 0;
+}

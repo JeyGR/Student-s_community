@@ -1,0 +1,14 @@
+.app_div {
+  background-color: #f4f6ff;
+}
+.app_div {
+  display: flex;
+}
+.app_div_right {
+  display: flex;
+}
+.app_div_right_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
